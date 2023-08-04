@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Tools from "./Tools";
 import UserInfo from "../Tools/UserInfo";
 import ColdEmail from "../Tools/ColdEmail";
-import User_info_Doc from "../documentation/user_info";
+import User_info_Doc from "../documentation/User_info.jsx";
 import Login from "./Login";
 import Email_Gen from "../documentation/Email_Gen";
 
