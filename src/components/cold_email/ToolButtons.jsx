@@ -16,7 +16,7 @@ const ToolButtons = ({ setToolsOutput, bussinessInfo, ourInfo, prompt }) => {
     setIsError(false);
     try {
       const response = await axios.post(
-        "http://localhost:3000/generate_email",
+        "https://1124-124-253-56-106.ngrok-free.app/test/generate_email",
         {
           our_company: ourInfo,
           target_company_info: bussinessInfo,

@@ -15,10 +15,13 @@ const ToolButtons = ({ setToolsOutput, query, systemMessage }) => {
     setIsLoading(true);
     setIsError(false);
     try {
-      const response = await axios.post("http://localhost:3000/user_info", {
-        query,
-        system_message: systemMessage,
-      });
+      const response = await axios.post(
+        "https://1124-124-253-56-106.ngrok-free.app/test/user_info",
+        {
+          query,
+          system_message: systemMessage,
+        }
+      );
       const output = response.data;
       setToolsOutput(output);
       setIsLoading(false);
