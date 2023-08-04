@@ -1,14 +1,9 @@
 import React from "react";
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Text, Textarea } from "@chakra-ui/react";
 
 const ToolsOutput = ({ output }) => {
   return (
-    <Box
-      maxH={"50vh"}
-      p={"2"}
-      textAlign={"justify"}
-      m={"1"}
-    >
+    <Box maxH={"50vh"} p={"2"} textAlign={"justify"} m={"1"}>
       <Text fontSize={"2xl"}>Tools Output</Text>
       <Box
         maxH={"50vh"}

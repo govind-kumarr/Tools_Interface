@@ -6,6 +6,8 @@ const ToolsInput = ({ query, setQuery, systemMessage, setSystemMessage }) => {
     <Box p={"2"}>
       <Text fontSize={"2xl"}>Prompt</Text>
       <Textarea
+        size={"md"}
+        maxH={"30vh"}
         p={"20px"}
         placeholder="Enter the prompt here..."
         value={systemMessage}
